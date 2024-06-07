@@ -1,0 +1,8 @@
+kubectl port-forward svc/<nazwa>-service 8080:2000
+kubectl apply -f
+kubectl rollout restart deployment python-deployment
+kubectl exec js-deployment-6b7479fcd8-487x6 -- env
+
+kind load docker-image python_api:latest --name gridy
+
+mysql -u root -p

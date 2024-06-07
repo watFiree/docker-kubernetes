@@ -1,0 +1,20 @@
+{
+  "name": "js",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build index.ts",
+    "start": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "bun": "latest",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.10.0"
+  }
+}
